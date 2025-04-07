@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    color: #2a2a2a; /* deep charcoal */
+    background-color: #efefef; /* soft gray */
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #1b1b1b; /* near black */
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero */
+  .hero {
+    color: #1e1e1e;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f3f3f3; /* mist gray */
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 12px 30px;
+    background-color: #3a3a3a; /* dark slate */
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555555; /* lighter gray */
+  }
+  
+  /* Services */
+  .services {
+    background-color: #fafafa; /* white smoke */
+    text-align: center;
+  }
+  
+  .services h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  .service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .service-box {
+    background-color: #e3e3e3; /* soft gray */
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Portfolio */
+  .portfolio {
+    background-color: #f7f7f7; /* gentle gray */
+    text-align: center;
+  }
+  
+  .portfolio h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* About */
+  .about {
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .about h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .about p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+  
+  /* Contact */
+  .contact {
+    background-color: #eaeaea; /* light stone */
+    text-align: center;
+  }
+  
+  .contact h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  input,
+  textarea {
+    padding: 15px;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  button[type="submit"] {
+    padding: 12px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  

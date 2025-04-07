@@ -1,0 +1,71 @@
+/* converter-style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e5e5e5; /* soft gray */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: #f9f9f9; /* off-white */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #2a2a2a; /* deep gray */
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #aaa; /* mid-gray border */
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .unit-select {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .unit-select label {
+    font-size: 16px;
+    color: #444;
+  }
+  
+  button {
+    background-color: #2e2e2e; /* dark charcoal */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4d4d4d; /* slightly lighter charcoal */
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2f2f2f; /* rich dark gray */
+  }
